@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>SuperBlog Template</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- endbuild -->
+    <!-- build:js scripts/modernizr.js -->
+    <script src="scripts/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <nav class="bg-white p-6">
+      <div
+        class="flex items-center justify-between flex-wrap container mx-auto"
+      >
+        <div class="flex items-center flex-shrink-0 text-white mr-12">
+          <img src="images/logo.svg" alt="Superblog" />
+        </div>
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-custom-blue border-custom-blue hover:text-blue-500 hover:border-blue-500"
+            onclick="toggleMenu();"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+          id="menu-nav"
+        >
+          <div class="text-sm lg:flex-grow">
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-gray-500"
+            >
+              Home
+            </a>
+          </div>
+          <div>
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-custom-blue hover:text-blue-500 lg:mr-4 lg:mb-0 mb-5"
+            >
+              Sign in
+            </a>
+            <a
+              href="#"
+              class="bg-custom-blue hover:bg-blue-500 text-white font-bold py-3 px-10 rounded-sm"
+              >Sign up</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-blue-100 content">
+      <div
+        class="container mx-auto py-10 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl"
+      >
+        <h1 class="font-semibold text-4xl mb-6">Latest Articles</h1>
+        <div class="bg-white rounded py-6 px-6 mb-8">
+          <div class="mb-8">
+            <h2 class="font-semibold text-3xl mb-2">
+              The Complete Guide to SCSS/SASS
+            </h2>
+            <p class="text-gray-600 text-base">
+              In this tutorial Sassy, Sass and SCSS will refer to roughly the
+              same thing. Conceptually, there isn’t much difference. You will
+              learn the…
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-700 text-sm mb-0">By Hamza Ahmed</p>
+            <span class="text-gray-500 text-xs">May 29, 2019, 10:25</span>
+          </div>
+        </div>
+        <div class="bg-white rounded py-6 px-6">
+          <div class="mb-8">
+            <h2 class="font-semibold text-3xl mb-2">
+              The Complete Guide to SCSS/SASS
+            </h2>
+            <p class="text-gray-600 text-base">
+              In this tutorial Sassy, Sass and SCSS will refer to roughly the
+              same thing. Conceptually, there isn’t much difference. You will
+              learn the…
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-700 text-sm mb-0">By Hamza Ahmed</p>
+            <span class="text-gray-500 text-xs">May 29, 2019, 10:25</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-5 bg-white">
+      <div class="container mx-auto">
+        <p class="text-gray-600">Superblog © 2019</p>
+      </div>
+    </footer>
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
